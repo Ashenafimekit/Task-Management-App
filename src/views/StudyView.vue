@@ -2,5 +2,7 @@
 import TaskList from '@/components/TaskList.vue'
 </script>
 <template>
-  <TaskList :category="'study'" />
+  <div class="w-full">
+    <TaskList :category="'study'" />
+  </div>
 </template>

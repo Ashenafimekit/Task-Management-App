@@ -2,5 +2,7 @@
 import TaskList from '@/components/TaskList.vue'
 </script>
 <template>
-  <TaskList :status="'completed'" />
+  <div class="w-full">
+    <TaskList :status="'completed'" />
+  </div>
 </template>

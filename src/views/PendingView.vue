@@ -2,5 +2,7 @@
 import TaskList from '@/components/TaskList.vue'
 </script>
 <template>
-  <TaskList :status="'pending'" />
+  <div class="w-full">
+    <TaskList :status="'pending'" />
+  </div>
 </template>

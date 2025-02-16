@@ -42,7 +42,7 @@ const filteredTask = computed(() => {
     </div>
 
     <!-- Task List -->
-    <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+    <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 ">
       <li v-for="task in filteredTask" :key="task.id" class="border p-2 rounded bg-gray-100">
         <p>
           <strong>{{ task.name }}</strong>

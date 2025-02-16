@@ -32,7 +32,7 @@ const toggleCollapse = () => {
       <!-- Overlay (visible only on small screens when sidebar is open) -->
       <div
         v-if="isOpen"
-        class="fixed inset-0 bg-white bg-opacity-50 z-40 md:hidden"
+        class="fixed inset-0 z-40 md:hidden"
         @click="toggleSidebar"
       ></div>
 

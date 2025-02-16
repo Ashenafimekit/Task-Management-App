@@ -4,7 +4,7 @@ import TaskList from '@/components/TaskList.vue'
 </script>
 
 <template>
-  <div class="py-5">
+  <div class="py-5 w-full">
     <Modal />
     <TaskList />
   </div>
