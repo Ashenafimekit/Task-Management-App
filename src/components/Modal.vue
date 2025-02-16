@@ -70,7 +70,7 @@ const createTask = () => {
     <!-- Modal Overlay -->
     <div v-if="isOpen" class="fixed inset-0 flex justify-center items-center z-50">
       <!-- Modal Content -->
-      <div class="bg-white rounded-lg shadow-2xl w-1/3 p-6 relative animate-fade-in">
+      <div class="bg-white rounded-lg shadow-2xl w-3/4 sm:w-1/2 md:w-1/3 p-6 relative animate-fade-in">
         <button @click="closeModal" class="absolute top-2 right-2">
           <X class="w-6 h-6 text-red-500 font-bold hover:text-red-400" />
         </button>
